@@ -54,8 +54,8 @@ extern "C" {
 	    }
 	case '0':
 	    {
-		printf
-		    ("Error! Please, enter the correct argument:\n[-t1, -t2, -t3, -t4], if you want to set one of 4 terms\n[-h], to display README file...\n\n");
+		printf("Error! Please, enter the correct argument:\n");
+		printf("[-t1, -t2, -t3, -t4], if you want to set one of 4 terms\n[-h], to display README file...\n\n");
 		return 0;
 	    }
 	default:
